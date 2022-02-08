@@ -1,0 +1,123 @@
+.container{
+    display: grid;
+    background-color: rgb(185, 181, 181);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 21.875rem;
+    height: 21.875rem;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.container > div{
+    display: grid;
+    border: 1px solid rgb(31, 31, 31);
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.tot{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: end;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 10px;
+}
+
+.uguale{
+    grid-column: 4;
+    grid-row: 3 / 7;
+    text-align: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    background-color: red;
+}
+
+.num{
+    grid-column: 1;
+    grid-row: 6;
+    border-bottom-left-radius: 10px;
+}
+
+.punto{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.ac{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.numu{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.numd{
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.numt{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.numq{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.numc{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.nums{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.numst{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.numo{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.numn{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.piu{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(109, 94, 245);
+}
+
+.meno{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(109, 94, 245);
+}
+
+.per{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(109, 94, 245);
+}
+
+.diviso{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(109, 94, 245);
+}
